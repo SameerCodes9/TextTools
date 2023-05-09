@@ -22,9 +22,11 @@ let myStyle={
       </div>
     </div>
   </div>
+
   <div class="accordion-item" style={myStyle}>
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
         Current position
       </button>
     </h2>
@@ -37,6 +39,7 @@ let myStyle={
   <div class="accordion-item" style={myStyle}>
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" style={myStyle} data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
         Technologies I know
       </button>
     </h2>

@@ -96,6 +96,7 @@ const[text,setText]=useState('Enter text here');
 <button disabled={text.length===0}type="submit" className="btn btn-primary mx-1 my-1" style={{backgroundColor:props.mode==='dark'?'grey':'white', color: props.mode==='dark'?'white':'black' }} onClick={Speak}>Hear Loud</button>
 <button disabled={text.length===0}className="btn btn-primary mx-1 my-1" style={{backgroundColor:props.mode==='dark'?'grey':'white', color: props.mode==='dark'?'white':'black'}} onClick={handleExtraSpaces}>Remove Extra Spaces</button>
 
+
     </div>
     <div className="container my-5">
       <p><b>Your Text Summary</b></p>
